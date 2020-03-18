@@ -1,0 +1,33 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.btnRetour {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: salmon;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 100;
+    top: 25px;
+    right: 25px;
+    color: #f1f1f1;
+    text-decoration: none;
+    font-size: 20px;
+    box-shadow: 0 0 0 0 salmon;
+    animation: pulse 1.3s infinite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@keyframes pulse {
+    to
+    {
+        box-shadow: 0 0 0 12px rgba(255, 255, 255, 0.01);
+    }
+}
+
